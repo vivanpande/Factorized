@@ -1,0 +1,7 @@
+Order of Operations:
+    - Create the boilerplate code to handle the spriting and game states
+    - Create sprites for all the things that we want to have
+    - Implement way to swap to international trade and shipping for supply chain
+    - Manufacturing design implementation
+
+In python
