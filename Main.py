@@ -7,7 +7,7 @@ iron_ore = Material("Iron_ore")
 r_iron_ingot = Recipe("Iron_ingot", inputs={"Iron_ore": 1}, outputs={"Iron_ingot": 1}, process_time=5)
 smelter = Machine("Smelter", r_iron_ingot)
 
-"""
+
 pygame.init()
 screen = pygame.display.set_mode((1280, 720))
 clock = pygame.time.Clock()
@@ -31,4 +31,3 @@ while running:
     clock.tick(60)  # limits FPS to 60
 
 pygame.quit()
-"""
